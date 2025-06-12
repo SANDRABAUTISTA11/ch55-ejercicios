@@ -13,5 +13,13 @@ console.log(`Hola soy ${username} tengo ${age} años y mis peliculas favoritas s
 while(counter < favoriteMovies.length){
     console.log(`Mi pelicula favorita ${counter+1} es: ${favoriteMovies [counter]}`);
     counter++; //es el que incrementara 1 a cada vuelta hasta llegar al cinco 
+    //comprueba 
+//mientras ( contador < longitud arreglo)
+//0<5 = verdadero
+//1<5 = verdadero
+//2<5 = verdadero
+//3<5 = verdadero
+//4<5 = verdadero
+//5<5 = falso  por eso se usa el counter ++
    
 }
