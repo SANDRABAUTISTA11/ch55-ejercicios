@@ -1,0 +1,42 @@
+//pasaremos esto a una función
+/*let counter = 1;
+do{
+    if(counter % 3 === 0 && counter %5 === 0){
+        console.log(`el numero ${counter} es FizzBuzz`);
+    }
+    else if(counter % 3 === 0){
+        console.log(`el numero ${counter} es Fizz`);
+    }
+    else if (counter % 5 === 0){
+        console.log(`el numero ${counter} es Fizz`);
+        console.log(counter);
+    }
+    counter++;
+}while(counter <= 100)*/
+
+//firma de la función 
+const FizzBuzz = (counterNumber) => {
+    let counter = 1;
+    do{
+        if (counter % 3 === 0 && counter % 5 === 0){
+            console.log(`el numero  ${counter} es fizzbuzz`);
+        }
+        else if (counter % 3 === 0){
+            console.log(`el numero ${counter} es fizz`);
+
+        }else if(counter % 5 === 0){
+            console.log(`el numero ${counter} es buzz`);
+
+        }else{
+            console.log(counter);
+
+        }
+        counter++;    
+    }while(counter <= counterNumber)
+        
+    };
+    console.log("50 veces");
+    console.log(FizzBuzz(50));
+    console.log("200 veces");
+    FizzBuzz(200);
+
