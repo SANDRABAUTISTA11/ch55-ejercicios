@@ -18,7 +18,7 @@ do{
 const FizzBuzz = (counterNumber) => {
     let counter = 1;
     do{
-        if counter % 3 === 0 && counter % 5 === 0){
+        if (counter % 3 === 0 && counter % 5 === 0){
             console.log(`el numero  ${counter} es fizzbuzz`);
         }
         else if (counter % 3 === 0){
